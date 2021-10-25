@@ -10,17 +10,20 @@ body {
     color: white;
 }
 
-.containersquare {
+#containersquare {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     margin: 0 auto;
 }
 
 .square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: calc(92% / 7);
     height: 120px;
     background-color: #1389b2;
-    margin: 10px auto;
+    margin: 5px auto;
 }
+
