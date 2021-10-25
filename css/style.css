@@ -1,0 +1,26 @@
+body {
+    background-color: #083b4c;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    color: white;
+}
+
+.containersquare {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.square {
+    width: calc(92% / 7);
+    height: 120px;
+    background-color: #1389b2;
+    margin: 10px auto;
+}
