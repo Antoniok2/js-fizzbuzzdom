@@ -13,6 +13,8 @@ body {
 #containersquare {
     width: 80%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
 }
@@ -21,8 +23,28 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(92% / 7);
+    width: calc(100% / 7);
     height: 120px;
     background-color: #1389b2;
-    margin: 5px auto;
+    margin: 5px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.squarefizz {
+    background-color: rgb(63, 235, 63);
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.squarebuzz {
+    background-color: rgb(248, 248, 37);
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.squarefizzbuzz {
+    background-color: red;
+    font-size: 20px;
+    font-family: cursive;
 }
